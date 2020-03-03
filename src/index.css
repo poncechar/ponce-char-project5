@@ -1,0 +1,165 @@
+@import url("https://use.typekit.net/rqj4msc.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  font-size: 62.5%;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background: #decfdd;
+  color: #252525;
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+.plantInfo {
+  font-family: moret, serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #4f7b71;
+}
+
+h1 {
+  letter-spacing: 0.05rem;
+  font-size: 3.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  margin-bottom: 2.2rem;
+}
+
+span {
+  color: #000000;
+}
+
+.plantLogo,
+.plantTaskLogo {
+  width: 5.5%;
+  padding-right: 0.5rem;
+  vertical-align: bottom;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.taskContainer,
+.formPlantContainer,
+.plantTaskContainer {
+  padding: 3rem;
+  margin-bottom: 3rem;
+  background-color: #f2e7f1;
+  width: 48%;
+}
+
+form {
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+
+input {
+  width: 50%;
+  padding: 0.4rem;
+}
+
+button,
+input[type=text],
+button[type=submit] {
+  text-align: center;
+  font-family: 'Montserrat';
+  letter-spacing: 0.08rem;
+  font-size: 1rem;
+}
+
+button,
+button[type=submit] {
+  font-family: moret, serif;
+  font-weight: 800;
+  background-color: #252525;
+  color: #ffffff;
+  padding: 0.4rem;
+  margin-left: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: 0.5s;
+  margin-top: 1rem;
+}
+
+button[type=submit]:hover {
+  background-color: #4f7b71;
+  cursor: pointer;
+}
+
+li {
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.info,
+.task {
+  padding: 0.5rem 0;
+  margin-right: 1.8rem;
+}
+
+.title {
+  color: #4f7b71;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #ffffff 65%);
+}
+
+.plantInfo {
+  color: #000000;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 980px) {
+  .plantLogo,
+  .plantTaskLogo {
+    width: 7%;
+  }
+
+  input {
+    width: 65%;
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .plantLogo,
+  .plantTaskLogo {
+    width: 10%;
+  }
+}
+
+@media (max-width: 750px) {
+  .plantLogo,
+  .plantTaskLogo {
+    width: 10%;
+  }
+}
+
+@media (max-width: 650px) {
+  .plantLogo,
+  .plantTaskLogo {
+    width: 10%;
+  }
+}
