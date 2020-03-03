@@ -103,6 +103,7 @@ button[type=submit] {
   margin-top: 1rem;
 }
 
+button:hover,
 button[type=submit]:hover {
   background-color: #4f7b71;
   cursor: pointer;
