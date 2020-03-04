@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ponce-char-project5/precache-manifest.c87a487a109cd9d7983c78bb1f174215.js"
+  "/ponce-char-project5/precache-manifest.49bd3dd3a6f18259ef7140c8d29d18ca.js"
 );
 
 self.addEventListener('message', (event) => {

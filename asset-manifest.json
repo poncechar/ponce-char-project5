@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/ponce-char-project5/static/css/main.88cf4fd2.chunk.css",
-    "main.js": "/ponce-char-project5/static/js/main.0fbd94c4.chunk.js",
-    "main.js.map": "/ponce-char-project5/static/js/main.0fbd94c4.chunk.js.map",
+    "main.css": "/ponce-char-project5/static/css/main.dbef528f.chunk.css",
+    "main.js": "/ponce-char-project5/static/js/main.155aae4e.chunk.js",
+    "main.js.map": "/ponce-char-project5/static/js/main.155aae4e.chunk.js.map",
     "runtime-main.js": "/ponce-char-project5/static/js/runtime-main.a0e72b11.js",
     "runtime-main.js.map": "/ponce-char-project5/static/js/runtime-main.a0e72b11.js.map",
-    "static/js/2.73b5b822.chunk.js": "/ponce-char-project5/static/js/2.73b5b822.chunk.js",
-    "static/js/2.73b5b822.chunk.js.map": "/ponce-char-project5/static/js/2.73b5b822.chunk.js.map",
+    "static/js/2.60a0c4c1.chunk.js": "/ponce-char-project5/static/js/2.60a0c4c1.chunk.js",
+    "static/js/2.60a0c4c1.chunk.js.map": "/ponce-char-project5/static/js/2.60a0c4c1.chunk.js.map",
     "index.html": "/ponce-char-project5/index.html",
-    "precache-manifest.c87a487a109cd9d7983c78bb1f174215.js": "/ponce-char-project5/precache-manifest.c87a487a109cd9d7983c78bb1f174215.js",
+    "precache-manifest.49bd3dd3a6f18259ef7140c8d29d18ca.js": "/ponce-char-project5/precache-manifest.49bd3dd3a6f18259ef7140c8d29d18ca.js",
     "service-worker.js": "/ponce-char-project5/service-worker.js",
-    "static/css/main.88cf4fd2.chunk.css.map": "/ponce-char-project5/static/css/main.88cf4fd2.chunk.css.map",
-    "static/js/2.73b5b822.chunk.js.LICENSE.txt": "/ponce-char-project5/static/js/2.73b5b822.chunk.js.LICENSE.txt",
+    "static/css/main.dbef528f.chunk.css.map": "/ponce-char-project5/static/css/main.dbef528f.chunk.css.map",
+    "static/js/2.60a0c4c1.chunk.js.LICENSE.txt": "/ponce-char-project5/static/js/2.60a0c4c1.chunk.js.LICENSE.txt",
     "static/media/chlorophytum.png": "/ponce-char-project5/static/media/chlorophytum.05dc1e3b.png",
     "static/media/fertilizer.png": "/ponce-char-project5/static/media/fertilizer.9af512fe.png",
+    "static/media/hanging-pot.png": "/ponce-char-project5/static/media/hanging-pot.a74fff75.png",
     "static/media/location.png": "/ponce-char-project5/static/media/location.0e32ec77.png",
     "static/media/mist.png": "/ponce-char-project5/static/media/mist.6a7e8e67.png",
     "static/media/monstera.png": "/ponce-char-project5/static/media/monstera.872e4d33.png",
@@ -22,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a0e72b11.js",
-    "static/js/2.73b5b822.chunk.js",
-    "static/css/main.88cf4fd2.chunk.css",
-    "static/js/main.0fbd94c4.chunk.js"
+    "static/js/2.60a0c4c1.chunk.js",
+    "static/css/main.dbef528f.chunk.css",
+    "static/js/main.155aae4e.chunk.js"
   ]
 }

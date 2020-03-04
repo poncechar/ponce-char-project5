@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6992c273bf8e1b5ccd5e295a2e7aa7b1",
+    "revision": "24615db080c5c984bcb7b77062c99e87",
     "url": "/ponce-char-project5/index.html"
   },
   {
-    "revision": "dd705d24350a2a859da0",
-    "url": "/ponce-char-project5/static/css/main.88cf4fd2.chunk.css"
+    "revision": "3f666bfa6e86a2d2e6e0",
+    "url": "/ponce-char-project5/static/css/main.dbef528f.chunk.css"
   },
   {
-    "revision": "77d0f8268a44e5f9386e",
-    "url": "/ponce-char-project5/static/js/2.73b5b822.chunk.js"
+    "revision": "7721ba3a18341e36dbcd",
+    "url": "/ponce-char-project5/static/js/2.60a0c4c1.chunk.js"
   },
   {
     "revision": "07a707eba59e3e3ed782f77b31f34780",
-    "url": "/ponce-char-project5/static/js/2.73b5b822.chunk.js.LICENSE.txt"
+    "url": "/ponce-char-project5/static/js/2.60a0c4c1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd705d24350a2a859da0",
-    "url": "/ponce-char-project5/static/js/main.0fbd94c4.chunk.js"
+    "revision": "3f666bfa6e86a2d2e6e0",
+    "url": "/ponce-char-project5/static/js/main.155aae4e.chunk.js"
   },
   {
     "revision": "ef70bd3a64e2b7539f39",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9af512feba3e240f6c36a34cad3dd31f",
     "url": "/ponce-char-project5/static/media/fertilizer.9af512fe.png"
+  },
+  {
+    "revision": "a74fff7570f8daebd74069baea5b0b79",
+    "url": "/ponce-char-project5/static/media/hanging-pot.a74fff75.png"
   },
   {
     "revision": "0e32ec777418d496a5b3c7586f33d3a2",
