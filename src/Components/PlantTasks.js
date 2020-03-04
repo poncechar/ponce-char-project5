@@ -78,7 +78,7 @@ class PlantTasks extends Component {
             <input
               type='text'
               name='taskFive'
-              placeholder='i.e. fertilze my sweet baby'
+              placeholder='i.e. fertilize my sweet baby'
               onChange={handleChange}
               value={taskFive}
             />

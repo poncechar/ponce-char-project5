@@ -94,7 +94,8 @@ class App extends Component {
 
   removeList = (taskKey) => {
     Swal.fire({
-      title: 'Are you finished all your tasks?',
+      title: 'Delete task list',
+      text: 'Are you sure you want to remove your task list?',
       confirmButtonColor: '#b7a6b5',
       cancelButtonColor: '#decfdd',
       showCancelButton: true,
@@ -103,7 +104,7 @@ class App extends Component {
       if (result.value) {
         const dbRef = firebase.database().ref();
         dbRef.child(taskKey).remove();
-        Swal.fire('removed!', 'your task list is gone');
+        Swal.fire('Removed', 'Your task list is gone forever!');
       }
     });
   }
