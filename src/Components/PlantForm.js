@@ -31,7 +31,7 @@ class PlantForm extends Component {
               />
             </div>
 
-              <h2>Where's your plant located?</h2>
+              <h2>Where is it located?</h2>
               <div className='info'>
                 <label htmlFor='plantLocation'>
                   <img className="plantLogo" src={require("../assets/location.png")} alt="icon of plant indoors" />

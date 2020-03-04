@@ -9,12 +9,13 @@ const plantTaskList = ({
   taskThree,
   taskFour,
   taskFive,
-  userKey
+  userKey,
+  removeList
 }) => {
   
   return (
     <section className='formContainer'>
-      <div className='plantTaskContainer wrapper'>
+      <div className='plantTaskContainer'>
         <div className='taskList'
           key={userKey}
         >
@@ -34,6 +35,7 @@ const plantTaskList = ({
               <li>{taskFour}</li>
               <li>{taskFive}</li>
             </ul>
+          <button type='button' onClick={removeList}>remove list</button>
         </div>
       </div>
     </section>

@@ -4,6 +4,7 @@ import PlantForm from './Components/PlantForm.js';
 import PlantTasks from './Components/PlantTasks.js';
 import PlantTaskList from './Components/PlantTaskList.js'
 import { animateScroll as scroller } from 'react-scroll';
+import Swal from 'sweetalert2';
 import './App.css';
 
 const Scroll = require('react-scroll');
@@ -24,7 +25,6 @@ class App extends Component {
       taskFour: '',
       taskFive: '',
     }
-
   }
 
   componentDidMount() {
@@ -58,7 +58,6 @@ class App extends Component {
       smooth: true,
       duration: 500
     })
-    console.log('this was clicked')
   }
 
   handleFormSubmit = (e) => {
@@ -93,16 +92,32 @@ class App extends Component {
     scroller.scrollToBottom();
   };
 
+  removeList = (taskKey) => {
+    Swal.fire({
+      title: 'Are you finished all your tasks?',
+      confirmButtonColor: '#b7a6b5',
+      cancelButtonColor: '#decfdd',
+      showCancelButton: true,
+      confirmButtonText: 'yes i am now a good plant parent'
+    }).then(result => {
+      if (result.value) {
+        const dbRef = firebase.database().ref();
+        dbRef.child(taskKey).remove();
+        Swal.fire('removed!', 'your task list is gone');
+      }
+    });
+  }
+
   render() {
     return (
       <main className='App'>
-          <PlantForm
-            handleChange={this.handleChange}
-            handleClick={this.handleClick}
-            plantName={this.state.plantName}
-            plantLocation={this.state.plantLocation}
-            plantSpecies={this.state.plantSpecies}
-          />
+        <PlantForm
+          handleChange={this.handleChange}
+          handleClick={this.handleClick}
+          plantName={this.state.plantName}
+          plantLocation={this.state.plantLocation}
+          plantSpecies={this.state.plantSpecies}
+        />
 
       <Element name='plantTasks'>
         <PlantTasks
@@ -130,13 +145,13 @@ class App extends Component {
                 taskThree={task.display.taskThree}
                 taskFour={task.display.taskFour}
                 taskFive={task.display.taskFive}
+                removeList={ () => this.removeList(task.key) }
               />
             )
           })
         }
       </div>
-
-      </main>
+    </main>
     );
   }
 }

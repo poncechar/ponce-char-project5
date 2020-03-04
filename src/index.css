@@ -122,6 +122,10 @@ li {
   list-style-type: none;
 }
 
+ul {
+  margin-bottom: 0;
+}
+
 .info,
 .task {
   padding: 0.5rem 0;
