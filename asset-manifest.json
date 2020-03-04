@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/plantparenthood/static/css/main.dbef528f.chunk.css",
-    "main.js": "/plantparenthood/static/js/main.16826e60.chunk.js",
-    "main.js.map": "/plantparenthood/static/js/main.16826e60.chunk.js.map",
-    "runtime-main.js": "/plantparenthood/static/js/runtime-main.0f175475.js",
-    "runtime-main.js.map": "/plantparenthood/static/js/runtime-main.0f175475.js.map",
-    "static/js/2.681b5a8c.chunk.js": "/plantparenthood/static/js/2.681b5a8c.chunk.js",
-    "static/js/2.681b5a8c.chunk.js.map": "/plantparenthood/static/js/2.681b5a8c.chunk.js.map",
-    "index.html": "/plantparenthood/index.html",
-    "precache-manifest.6e28a14b435180d2b1309ed57ea27c27.js": "/plantparenthood/precache-manifest.6e28a14b435180d2b1309ed57ea27c27.js",
-    "service-worker.js": "/plantparenthood/service-worker.js",
-    "static/css/main.dbef528f.chunk.css.map": "/plantparenthood/static/css/main.dbef528f.chunk.css.map",
-    "static/js/2.681b5a8c.chunk.js.LICENSE.txt": "/plantparenthood/static/js/2.681b5a8c.chunk.js.LICENSE.txt",
-    "static/media/chlorophytum.png": "/plantparenthood/static/media/chlorophytum.05dc1e3b.png",
-    "static/media/fertilizer.png": "/plantparenthood/static/media/fertilizer.9af512fe.png",
-    "static/media/hanging-pot.png": "/plantparenthood/static/media/hanging-pot.a74fff75.png",
-    "static/media/location.png": "/plantparenthood/static/media/location.0e32ec77.png",
-    "static/media/mist.png": "/plantparenthood/static/media/mist.6a7e8e67.png",
-    "static/media/monstera.png": "/plantparenthood/static/media/monstera.872e4d33.png",
-    "static/media/pots.png": "/plantparenthood/static/media/pots.03098571.png",
-    "static/media/watering-can.png": "/plantparenthood/static/media/watering-can.46420a8e.png"
+    "main.css": "/ponce-char-project5/static/css/main.dbef528f.chunk.css",
+    "main.js": "/ponce-char-project5/static/js/main.155aae4e.chunk.js",
+    "main.js.map": "/ponce-char-project5/static/js/main.155aae4e.chunk.js.map",
+    "runtime-main.js": "/ponce-char-project5/static/js/runtime-main.a0e72b11.js",
+    "runtime-main.js.map": "/ponce-char-project5/static/js/runtime-main.a0e72b11.js.map",
+    "static/js/2.60a0c4c1.chunk.js": "/ponce-char-project5/static/js/2.60a0c4c1.chunk.js",
+    "static/js/2.60a0c4c1.chunk.js.map": "/ponce-char-project5/static/js/2.60a0c4c1.chunk.js.map",
+    "index.html": "/ponce-char-project5/index.html",
+    "precache-manifest.49bd3dd3a6f18259ef7140c8d29d18ca.js": "/ponce-char-project5/precache-manifest.49bd3dd3a6f18259ef7140c8d29d18ca.js",
+    "service-worker.js": "/ponce-char-project5/service-worker.js",
+    "static/css/main.dbef528f.chunk.css.map": "/ponce-char-project5/static/css/main.dbef528f.chunk.css.map",
+    "static/js/2.60a0c4c1.chunk.js.LICENSE.txt": "/ponce-char-project5/static/js/2.60a0c4c1.chunk.js.LICENSE.txt",
+    "static/media/chlorophytum.png": "/ponce-char-project5/static/media/chlorophytum.05dc1e3b.png",
+    "static/media/fertilizer.png": "/ponce-char-project5/static/media/fertilizer.9af512fe.png",
+    "static/media/hanging-pot.png": "/ponce-char-project5/static/media/hanging-pot.a74fff75.png",
+    "static/media/location.png": "/ponce-char-project5/static/media/location.0e32ec77.png",
+    "static/media/mist.png": "/ponce-char-project5/static/media/mist.6a7e8e67.png",
+    "static/media/monstera.png": "/ponce-char-project5/static/media/monstera.872e4d33.png",
+    "static/media/pots.png": "/ponce-char-project5/static/media/pots.03098571.png",
+    "static/media/watering-can.png": "/ponce-char-project5/static/media/watering-can.46420a8e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f175475.js",
-    "static/js/2.681b5a8c.chunk.js",
+    "static/js/runtime-main.a0e72b11.js",
+    "static/js/2.60a0c4c1.chunk.js",
     "static/css/main.dbef528f.chunk.css",
-    "static/js/main.16826e60.chunk.js"
+    "static/js/main.155aae4e.chunk.js"
   ]
 }
