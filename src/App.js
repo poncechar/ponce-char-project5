@@ -3,7 +3,11 @@ import firebase from './firebase.js';
 import PlantForm from './Components/PlantForm.js';
 import PlantTasks from './Components/PlantTasks.js';
 import PlantTaskList from './Components/PlantTaskList.js'
+import { animateScroll as scroller } from 'react-scroll';
 import './App.css';
+
+const Scroll = require('react-scroll');
+const Element = Scroll.Element;
 
 class App extends Component {
   constructor() {
@@ -49,16 +53,13 @@ class App extends Component {
     })
   }
 
-  // scrollToTasks = () => {
-  //   scroller.scrollTo('PlantTasks', {
-  //     smooth: true,
-  //     duration: 500,
-  //   });
-  // };
-
-  // handleClick = () => {
-  //   scrollToTasks();
-  // }
+  handleClick = () => {
+    scroller.scrollTo(685, {
+      smooth: true,
+      duration: 500
+    })
+    console.log('this was clicked')
+  }
 
   handleFormSubmit = (e) => {
     e.preventDefault();
@@ -85,20 +86,25 @@ class App extends Component {
       taskFive: '',
     });
 
-}
+    scroller.scrollToBottom();
+  }
+
+  scrollToBottom = () => {
+    scroller.scrollToBottom();
+  };
 
   render() {
     return (
       <main className='App'>
-        <PlantForm
-          handleChange={this.handleChange}
-          handleClick={this.handleClick}
-          plantName={this.state.plantName}
-          plantLocation={this.state.plantLocation}
-          plantSpecies={this.state.plantSpecies}
-        />
+          <PlantForm
+            handleChange={this.handleChange}
+            handleClick={this.handleClick}
+            plantName={this.state.plantName}
+            plantLocation={this.state.plantLocation}
+            plantSpecies={this.state.plantSpecies}
+          />
 
-      <div className='PlantTasks'>
+      <Element name='plantTasks'>
         <PlantTasks
           handleChange={this.handleChange}
           handleFormSubmit={this.handleFormSubmit}
@@ -108,9 +114,9 @@ class App extends Component {
           taskFour={this.state.taskFour}
           taskFive={this.state.taskFive}
         />
-      </div>
+      </Element>
 
-      <div className='taskList'>
+      <div name='taskList'>
         {
           this.state.taskList.map((task) => {
             return (
